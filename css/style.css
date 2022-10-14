@@ -1,0 +1,298 @@
+/* ====================== Connect the Lato font from Google fonts ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ====================== CCS Properties Home Work=============================== */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+}
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+[class*="__container-mini"] {
+	max-width: 810px;
+	margin: 0 auto;
+ }
+.main > * {
+margin: 0 0 180px 0;
+}
+.main > :last-child{
+	margin: 0 0 120px 0
+}
+.hr-stats__container-mini > *:not(:last-child) {
+	margin: 0 0 24px 0;
+ }
+.hr-stats__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1e212c;
+	padding: 45px 0;
+	margin: 0 0 40px 0;
+ }
+.hr-stats .hr-stats__image {
+	margin: 0 0 60px 0;
+ }
+.hr-stats__image img {
+	max-width: 100%;
+	border-radius: 4px;
+ }
+.text__item_bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1e212c;
+ }
+.text-item:not(:last-child) {
+	margin: 0 0 26px 0;
+ }
+ .hr-stats .text > :not(:last-child) {
+	margin: 0 0 48px 0;
+ }
+.text_quotes .text__item.text__item_bold {
+	padding: 0 0 0 58px;
+ }
+.text_quotes .text__item.text__item_bold::before{
+	content: "";
+	display: inline-block;
+	background: url(../img/braces.png) 0 0 no-repeat;
+	height: 20px;
+	width: 28px;
+	margin: 0 28px 0 -58px;
+ }
+.list__body {
+	padding: 0 0 0 32px;
+ }
+.list__item::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/vector.png) 0 0 no-repeat;
+	height: 16px;
+	width: 16px;
+	margin: 0 16px 0 -32px;
+ }
+.list__item:not(:last-child) {
+	margin: 0 0 4px 0;
+ }
+.who-we-are__body {
+	display: flex;
+}
+.who-we-are__img {
+	max-width: 705px;
+}
+.who-we-are__img img {
+	max-width: 100%;
+}
+.who-we-are__block-title {
+	padding: 0 0 0 135px;
+}
+.title-block >:last-child {
+	margin: 0;
+}
+.title-block__sub-title {
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin: 0 0 8px 0;
+}
+.title-block__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin: 0 0 40px 0;
+}
+.title-block_centre {
+	text-align: center;
+}
+.title-block__list {
+	margin: 0 0 22px 0;
+}
+.who-we-are__block-title .list__item:not(:last-child) {
+	margin: 0 0 12px 0;
+}
+.button_orange {
+	padding: 14px 32px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+}
+.button_white {
+	padding: 14px 40px;
+	background: transparent;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #F75E05;
+	border: 1px solid #F75E05;
+}
+.ready-to-learn__block-title {
+	margin: 0 0 60px 0;
+}
+.card__item {
+	display: flex;
+	max-width: 600px;
+	max-height: 214px;
+	background: #FFFFFF;
+	box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+	border-radius: 4px;
+}
+.card__link-item {
+	display: inline-block;
+}
+.card__item:hover {
+	box-shadow: 15px 15px 37px #9d9d9d, -15px -15px 37px #ffffff;
+}
+.card__img {
+	max-width: 214px;
+}
+.card__img img {
+	max-width: 100%;
+}
+.text-content {
+	padding: 32px;
+	width: 386px;
+	border-top: 1px solid #E5E8ED;
+	border-right: 1px solid #E5E8ED;
+	border-bottom: 1px solid #E5E8ED;
+	border-radius: 0px 4px 4px 0px;
+}
+.text-content__title {
+	padding: 1px 8px;
+	border-radius: 4px;
+	color: #FFFFFF;
+	display: inline-block;
+	margin: 0 0 20px 0;
+}
+.text-content__text:first-of-type {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin: 0 0 20px 0;
+}
+.text-content__text:last-of-type {
+	font-size: 18px;
+	line-height: 150%;
+	color: #787A80;
+}
+.text-content span {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	color: #FF4242;
+	margin: 0 8px 0 0;
+}
+.text-content span::after {
+	content: "";
+	width: 16px;
+	height: 0px;
+	border: 1px solid #787A80;
+	transform: rotate(90deg);
+	margin: 0 0 0 8px;
+}
+.text-content__title_blue {
+	background: #5A87FC;
+}
+.text-content__title_orange {
+	background: #F89828;
+}
+.text-content__title_green {
+	background: #03CEA4;
+}
+.text-content__title_red {
+	background: #F52F6E;
+}
+.our-benefits__block-title,
+.our-benefits__list {
+	margin: 0 0 60px 0;
+}
+.list-benefits__item {
+	padding: 10px 72px;
+}
+.list-benefits__body {
+	display: flex;
+	justify-content: space-between;
+}
+.list-benefits__item_star-icon::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/star.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0 8px 0 0;
+}
+.list-benefits__item_like-icon::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/like.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0 8px 0 0;
+}
+.list-benefits__item_layouts-icon::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/layouts.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0 8px 0 0;
+}
+.list-benefits__item_chat-icon::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/chat.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0 8px 0 0;
+}
+.our-benefits__content {
+	display: flex;
+}
+.our-benefits__img {
+	max-width: 600px;
+}
+.our-benefits__img img {
+	max-width: 100%;
+}
+.our-benefits__text {
+	max-width: 495px;
+	margin: 0 135px 0 0;
+	padding: 110px 0 0 0;
+}
+.text-benefits > *:not(:last-child) {
+	margin: 0 0 24px 0;
+}
+.text-benefits__title {
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 42px;
+	color: #1E212C;
+}
+.footer {
+	text-align: center;
+	background: #ffc33b;
+	color: #fff; 
+	padding: 3px;
+}
+.footer__title{
+	display: inline-block;
+	font-size: 25px;
+	padding: 22px;
+}
+.footer__link img{
+	max-width: 70px;
+}
